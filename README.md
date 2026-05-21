@@ -39,7 +39,7 @@ The following figures show representative DBR segmentation and validation result
 ### Results on ShapeNet Parts
 
 <p align="center">
-  <img src="figures/results_on_shapenet_parts.PNG" width="900">
+  <img src="figures/figures/results_on_shapenet_parts.png" width="900">
 </p>
 
 
