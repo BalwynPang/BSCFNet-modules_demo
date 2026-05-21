@@ -1,0 +1,60 @@
+# ============================================================
+# Requirements for BSCFNet Modules Demo
+# ============================================================
+# This section contains the minimal dependencies required to run
+# the released module-level demo code for:
+#   - BEHS: Boundary-Enhanced Hybrid Sampling
+#   - MSCA: Multi-branch Statistical Channel Attention
+#   - GCE: Global Context Extractor
+#
+# The released demo modules can run independently on CPU.
+# ============================================================
+
+numpy>=1.21.0
+scikit-learn>=1.0.2
+
+# For CPU-only demo execution, install PyTorch with:
+# pip install torch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1
+
+# For CUDA 11.3 execution, install PyTorch with:
+# pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+
+
+# ============================================================
+# Reference Environment for the Full BSCFNet Project
+# ============================================================
+# The full BSCFNet project was originally developed and tested
+# under the following environment:
+#
+#   Python 3.7.16
+#   PyTorch 1.12.1
+#   CUDA 11.3
+#   cuDNN 8.3.2
+#
+# The following packages are listed as a reference for the full
+# network training, inference, point cloud preprocessing, and
+# visualization pipeline.
+#
+# NOTE:
+# The complete training, inference, dataset preprocessing, and
+# repair-validation pipeline is not publicly released at this stage
+# because it is associated with an ongoing funding project.
+#
+# After the funding project is declassified and approved for public
+# release, a complete environment file will be provided.
+# ============================================================
+
+# numpy==1.21.6
+# scikit-learn==1.0.2
+# scipy==1.7.3
+# matplotlib==3.5.3
+# pandas==1.3.5
+# tqdm==4.64.1
+# PyYAML==6.0
+# open3d==0.16.0
+# opencv-python==4.6.0.66
+
+# PyTorch CUDA 11.3 reference installation:
+# torch==1.12.1+cu113
+# torchvision==0.13.1+cu113
+# torchaudio==0.12.1
