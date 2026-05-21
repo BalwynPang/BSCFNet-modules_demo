@@ -12,6 +12,38 @@ The released code is intended to demonstrate the core computational logic of the
 
 ---
 
+
+
+## Visual Examples
+
+The following figures show representative DBR segmentation and validation results. The deposited bead region (DBR) is shown in red, and the substrate is shown in blue.
+
+### Results on DBRSet
+
+<p align="center">
+  <img src="figures/results_on_DBRSet.png" width="500">
+</p>
+
+### Results in an Industrial Environment
+
+<p align="center">
+  <img src="figures/results_in_industrial_environment.png" width="500">
+</p>
+
+### Results on Non-uniform Deposition Morphologies
+
+<p align="center">
+  <img src="figures/results_on_non_uniform_deposition.PNG" width="500">
+</p>
+
+### Results on ShapeNet Parts
+
+<p align="center">
+  <img src="figures/results_on_shapenet_parts.PNG" width="900">
+</p>
+
+
+
 ## Overview
 
 Teaching-free repair of DED-Arc components requires reliable perception of the deposited bead region directly from scanned point clouds. However, accurate DBR-substrate boundary segmentation is challenging because the transition between the deposited bead and the substrate is often weak, blurred, and irregular.
